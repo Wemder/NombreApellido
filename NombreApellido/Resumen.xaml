@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NombreApellido.Resumen">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label x:Name="lblUsuario" Text="" FontSize="30" TextColor="Black" HorizontalOptions="Center"/>
+
+            <Label x:Name="lblEstudiante" Text="" FontSize="25" TextColor="Black" HorizontalOptions="Center"/>
+            <Label x:Name="lbltotal" Text="" FontSize="25" TextColor="Black" HorizontalOptions="Center"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
