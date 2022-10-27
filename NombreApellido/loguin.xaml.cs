@@ -16,11 +16,11 @@ namespace NombreApellido
         {
             InitializeComponent();
         }
-        int contador = 0;
-        int limite = 2;
+        int contad = 0;
+        int limi= 2;
         private async void btnInicio_Clicked(object sender, EventArgs e)
         {
-            if (contador <= limite)
+            if (contad <= limi)
             {
 
             await Navigation.PushAsync(new registro(txtUsuario.Text, txtContraseña.Text));

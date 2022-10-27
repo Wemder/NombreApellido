@@ -42,7 +42,7 @@ namespace NombreApellido
 
         private async void btnGuardar_Clicked(object sender, EventArgs e)
         {
-            await DisplayAlert("alerta", "elentos guardados", "Cerrar");
+            await DisplayAlert("alerta", "elentos guardados con exito", "Cerrar");
             await Navigation.PushModalAsync(new Resumen(txtNombre.Text, lblUsuarario.Text, txtPago.Text));
 
         }

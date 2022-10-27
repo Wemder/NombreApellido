@@ -7,7 +7,7 @@
             <Label x:Name="lblUsuario" Text="" FontSize="30" TextColor="Black" HorizontalOptions="Center"/>
 
             <Label x:Name="lblEstudiante" Text="" FontSize="25" TextColor="Black" HorizontalOptions="Center"/>
-            <Label x:Name="lbltotal" Text="" FontSize="25" TextColor="Black" HorizontalOptions="Center"/>
+            <Label x:Name="lbltotal" Text="" FontSize="25" TextColor="Pink" HorizontalOptions="Center"/>
 
         </StackLayout>
     </ContentPage.Content>
