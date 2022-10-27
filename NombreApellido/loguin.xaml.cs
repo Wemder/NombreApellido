@@ -18,6 +18,7 @@ namespace NombreApellido
         }
         int contad = 0;
         int limi= 2;
+        // corregido
         private async void btnInicio_Clicked(object sender, EventArgs e)
         {
             if (contad <= limi)
